@@ -19,5 +19,5 @@ pip3 install poetry
 poetry install # 권한문제 발생 시 sudo -H pip3 install poetry
 poetry shell
 # 로컬실행
-poetry run uvicorn main:app --reload
+poetry run uvicorn app.main:app --reload
 ```

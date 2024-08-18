@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models import ChatLog
+from app.models import ChatLog
 
 router = APIRouter()
 

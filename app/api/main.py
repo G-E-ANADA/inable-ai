@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from api.routes import test, chatlog
+from app.api.routes import test, chatlog
 
 api_router = APIRouter()
 api_router.include_router(test.router, prefix="/test", tags=["test"])

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from api.main import api_router
-from core.config import settings
+from app.api.main import api_router
+from app.core.config import settings
 import os
 from dotenv import load_dotenv
 from pathlib import Path
