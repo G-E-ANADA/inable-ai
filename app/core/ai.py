@@ -61,7 +61,7 @@ class AI:
         streaming=self.streaming,
     )
 
-    async def run_gen_ai(self, user_query):
+    async def run_gen_ai(self, user_query, summary_data):
         llm = self.llm
 
         first_prompt = f"""
@@ -72,6 +72,7 @@ class AI:
                 만약, <user_query></user_query> 있는 내용이 장애인 구인구직의 내용과 관련이없다고 판단된다면, 다시 질문달라고 요청하세요.
             </instruction>
             <user_query>{user_query}</user_query>
+            <job_post_summary>{summary_data}</job_post_summary>
         </request>
         """
 
