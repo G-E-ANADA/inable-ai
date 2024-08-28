@@ -48,3 +48,14 @@ poetry run uvicorn app.main:app --reload
 - 이에따라 챗봇은 AI응답을 실시간으로 클라이언트에 내려줄 수 있다.
 - 클라이언트앱은 실시간으로 받은 데이터를 한글자씩 찍어 줄 수 있다.
 ![image](https://github.com/user-attachments/assets/bc82abd1-82ba-4dcd-97aa-6b4156da45d3)
+
+---
+## 6.LLM
+- Claude 3 Haiku
+- 사용근거
+   - 클로드 제품군 중 제일 빠르고 컴팩트
+   - 챗봇에 적합 > 즉각적인 반응성과 인간 상호작용을 모방하는 원활한 생성형 인공 지능(AI) 경험을 위해 설계됨
+   - 저렴한 비용 > 인풋토큰 100만개 당 0.25달러, 아웃풋토큰 100만개당 1.25달러
+      - ![image](https://github.com/user-attachments/assets/b9120cfc-6479-4b50-b0da-5fc0701b347e) 
+   - 타 모델 대비 성능도 준수
+      - ![image](https://github.com/user-attachments/assets/2c77a483-dd63-4eac-bc62-1b6e329e389d) 
