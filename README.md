@@ -9,8 +9,9 @@
 - SSE
 
 --- 
-## 1.시스템 구조도(스크린샷 첨부 예정)
-...
+## 1.시스템 구조도
+![image](https://github.com/user-attachments/assets/4b89c8bb-dab7-40f4-a2e1-5f882f47072d)
+
 
 --- 
 ## 2.API 명세(스크린샷 첨부 예정)
